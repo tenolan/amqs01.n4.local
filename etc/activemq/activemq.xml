@@ -153,7 +153,8 @@
         -->
         <transportConnectors>
             <transportConnector name="openwire" uri="tcp://0.0.0.0:61616"/>
-            <transportConnector name="stomp+nio" uri="stomp+nio://0.0.0.0:61613"/>
+            <!-- <transportConnector name="stomp+nio" uri="stomp+nio://0.0.0.0:61613"/> -->
+	    <transportConnector name="stomp" uri="stomp://0.0.0.0:61613"/>
         </transportConnectors>
 
     </broker>
