@@ -105,8 +105,8 @@
           -->
           <simpleAuthenticationPlugin>
             <users>
-              <authenticationUser username="${activemq.username}" password="${activemq.password}" groups="admins,everyone"/>
-              <authenticationUser username="mcollective" password="secret" groups="mcollective,admins,everyone"/>
+              <authenticationUser username="mcollective" password="secrets" groups="admins,everyone"/>
+              <authenticationUser username="admin" password="moresecrets" groups="mcollective,admins,everyone"/>
             </users>
           </simpleAuthenticationPlugin>
           <authorizationPlugin>
